@@ -5,11 +5,11 @@ Para executar o código, em um terminal (que já tenha NodeJS e Express intalado
 
 
 Acesse a URL indicada para ver todas as receitas: http://localhost:4000/recipes  
-Pode especificar no final dela o id da receita que deseja ver: (http://localhost:4000/recipes/3)  
+Pode especificar no final dela o id da receita que deseja ver: http://localhost:4000/recipes/3  
 Ou buscar uma receita pelo nome: http://localhost:4000/recipes?name=NOME  
+  
 
-
-\Em outro terminal você pode executar os seguintes comandos:  
+Em outro terminal você pode executar os seguintes comandos:  
 
 ### Para ver todas as receitas:
 curl -X GET http://localhost:4000/recipes
